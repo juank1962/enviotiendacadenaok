@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wordpress</title>
+  <link rel="stylesheet" href="./dist/css/materialize.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Neucha" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+  <style media="screen">
+    body {
+      overflow: auto;
+    }
+
+    .card-content ol li {
+      margin-bottom: 10px
+    }
+
+    a {
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+
+    .img-responsive {
+      display: block;
+      max-width: 100%;
+    }
+
+    .collapsible-header>p {
+      margin: 0
+    }
+  </style>
+
+
+  <div class="container">
+    <ul class="collapsible blue-grey lighten-5" data-collapsible="accordion">
+      <h5 class="center-align" style="margin-top:5%">
+        <img src="./dist/img/react.jpg" style="max-height:200px">
+      </h5>
+      <p style="text-align: center">
+        <i>Para que funcionen las API de google y facebook el proyecto debe crearse en la carpeta wordpress o supermercadosmax</i>
+      </p>
+      <li>
+        <!-- Paso 1-->
+        <div class="collapsible-header">1. Crear espacio de trabajo
+          <i class="material-icons">arrow_drop_down</i>
+        </div>
+        <div class="collapsible-body blue-grey lighten-4">
+          <span>
+            <ol>
+              <ol>
+                <li type="i">
+                  <p>Instalar Xampp en el computador:
+                    <br/>
+                    <b>Utilizar la ruta predeterminada: C:\xampp</b>
+                  </p>
+                  <a href="https://www.apachefriends.org/es/index.html">
+                    https://www.apachefriends.org/es/index.html
+                  </a>
+                </li>
+
+                <li type="i">
+                  <p>Abrir la cónsola de xampp con permisos de administrador</b>
+                  </p>
+                  <a href="./dist/img/consola-administrador.png">
+                    <img class="img-responsive" src="./dist/img/consola-administrador.png">
+                  </a>
+                </li>
+
+                <li type="i">
+                  <p>Instalar los Apache y MySql como servicios de windows:
+                    <br/>
+                    <b>Hacer Clic en los botones de servicio correspondientes</b>
+                  </p>
+                  <a href="./dist/img/instalarservicios.png">
+                    <img class="img-responsive" src="./dist/img/instalarservicios.png">
+                  </a>
+                </li>
+
+                <li type="i">
+                  <p>Iniciar los Apache y MySql como servicios de windows:
+                    <br/>
+                    <b>Hacer Clic en los botones Start del servicio correspondientes</b>
+                  </p>
+                  <a href="./dist/img/iniciarservicios.png">
+                    <img class="img-responsive" src="./dist/img/iniciarservicios.png">
+                  </a>
+                </li>
+
+              </ol>
+            </ol>
+          </span>
+        </div>
+      </li>
+      <!--!Paso 1-->
+
+      <li>
+        <!-- Paso 2-->
+        <div class="collapsible-header">2. Configurar PHPMyadmin
+          <i class="material-icons">arrow_drop_down</i>
+        </div>
+        <div class="collapsible-body blue-grey lighten-4">
+          <span>
+            <ol>
+              <ol>
+                <li type="i">
+                  <p>Abrir la cónsola de php myadmin desde el epxplorador:
+                    <br/>
+                  </p>
+                  <a href="http://localhost/phpmyadmin">
+                    http://localhost/phpmyadmin
+                  </a>
+                </li>
+
+                <li type="i">
+                  <p>Iniciar sesión con el nombre y usuario
+                    <br>
+                    <code>
+                      <b>user:</b> root</code>
+                    <br>
+                    <code>
+                      <b>password</b> (en blanco) </code>
+                  </p>
+                  <a href="./dist/img/phpmyadminlogin.png">
+                    <img class="img-responsive" src="./dist/img/phpmyadminlogin.png">
+                  </a>
+                </li>
+
+                <li type="i">
+                  <p>Crear una nueva base de datos
+                    <br/>
+                    <b>Hacer Clic en la opción "NEW"</b>
+                  </p>
+                  <a href="./dist/img/phpmyadminnew.png">
+                    <img class="img-responsive" src="./dist/img/phpmyadminnew.png">
+                  </a>
+                </li>
+
+                <li type="i">
+                  <p>Crear base de datos con el nombre supermercadosmax:
+                    <br/>
+                  </p>
+                  <a href="./dist/img/phpmyadminsupermercados.png">
+                    <img class="img-responsive" src="./dist/img/phpmyadminsupermercados.png">
+                  </a>
+                </li>
+
+              </ol>
+            </ol>
+          </span>
+        </div>
+      </li>
+      <!--!Paso 2-->
+
+      <li>
+        <!--Duplicator -->
+        <div class="collapsible-header">
+          <p>
+            <!-- <i class="material-icons">play_arrow</i> -->
+            3. Utilizar asistente de Exportación/Importación de Duplicator.php
+            <i class="material-icons">arrow_drop_down</i>
+          </p>
+        </div>
+        <div class="collapsible-body blue-grey lighten-5">
+          <ol>
+            <li type="i">
+              <p>
+                <b>Descomprimir los archivos
+                  <b>supermercadosmax_cf2a4b83a85c0cff7807180416123917_archive</b> e
+                  <b> installer.php</b> dentro de la carpeta del proyecto:</b>
+                <br>
+                <code>C:\xampp\htdocs\supermercadosmax</code>
+                <br>
+                <a href="./dist/img/carpetaproyecto.png">
+                  <img class="img-responsive" src="./dist/img/carpetaproyecto.png">
+                </a>
+              </p>
+            </li>
+
+            <li type="i">
+              <p>
+                <b>En el explorador navegar hasta la carpeta del proyecto y ejecutar el archivo installer.php</b>
+              </p>
+              <br>
+              <a href="http://localhost/supermercadosmax/installer.php" target="_blank">http://localhost/supermercadosmax/installer.php</a>
+              <a href="./dist/img/duplicator1.png">
+                <img class="img-responsive" src="./dist/img/duplicator1.png">
+              </a>
+              <p>Y hacer click en
+                <code>Next</code> Y eperar que finalice el proceso
+              </p>
+            </li>
+
+            <li type="i">
+              <p>
+                <b>En el paso 2, se debe agregar la información de configuración del servidor</b>
+                <ol>
+                  <li type="a">
+                    <b>Action:</b> Connect and Remove all data</li>
+                  <li type="a">
+                    <b>HOST:</b> localhost</li>
+                  <li type="a">
+                    <b>Database:</b> supermercadosmax</li>
+                  <li type="a">
+                    <b>user:</b> root</li>
+                  <li type="a">
+                    <b>password:</b>
+                  </li>
+                </ol>
+              </p>
+              <br>
+              <a href="./dist/img/duplicator2.png">
+                <img class="img-responsive" src="./dist/img/duplicator2.png">
+              </a>
+              </p>
+            </li>
+
+            <li type="i">
+              <p>
+                <b>Presionar el botón test database y esperar la respuesta del servidor. Si la respuesta es correcta presionar
+                  NEXT
+                </b>
+              </p>
+              <br>
+              <a href="./dist/img/duplicator2success.png">
+                <img class="img-responsive" src="./dist/img/duplicator2success.png">
+              </a>
+              <p>Aceptar el mensaje de confirmación</p>
+              <br>
+              <br>
+
+              <code>Si se genera un error verificar los pasos anteriores</code>
+            </li>
+
+            <li type="i" id="4">
+              <p>
+                <b>En el paso 3 abrir la pestañas:</b>
+              </p>
+              <ol>
+                <li>
+                  <p>
+                    <b>New Settings</b>
+                  </p>
+                  <p>en la opción
+                    <b>URL</b>Cambiar el protocolo de conexión
+                    <i>http://</i> por
+                    <i>https://</i>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <b>Opciones / New Admin Account</b>
+                  </p>
+                  <p>cambiar el nombre del usuario administrador por el de tu preferencia. En este ejemplo se utilizará</b>
+                    </b>
+                  </p>
+                  <p>
+                    <b>Usuario</b>master</p>
+                  <p>
+                    <b>Contraseña</b>123456</p>
+                  </p>
+                </li>
+
+                <li>
+                  <p>
+                    <b>Opciones / Scan Options</b>
+                  </p>
+                  <p>en la opción
+                    <b>Site URL</b>Cambiar el protocolo de conexión
+                    <i>http://</i> por
+                    <i>https://</i>
+                  </p>
+                </li>
+              </ol>
+              <b>
+                <i>Verificar que el URL y SiteURL comiencen con protocolo https:// para evitar inconvenientes con el inicio
+                  de sesión con las redes sociales</i>
+              </b>
+              <a href="./dist/img/duplicator3.png">
+                <img class="img-responsive" src="./dist/img/duplicator3.png">
+              </a>
+              <p>Y hacer click en
+                <code>Next</code> Y eperar que finalice el proceso
+              </p>
+            </li>
+
+            <li type="i">
+              <p>
+                <b>En el paso 4 verificar que no hayan errores de instalación</b>
+                </b>
+              </p>
+              <br>
+              <a href="./dist/img/duplicator4.png">
+                <img class="img-responsive" src="./dist/img/duplicator4.png">
+              </a>
+              <p>Y hacer click en
+                <code>Site login</code> y automáticamente será redireccionado a la página de inicio de sesión del sitio web
+              </p>
+            </li>
+
+            <li type="i">
+              <p>
+                <b>En la página de inicio de sesión utilizar el nombre de usuario y contraseña especificados en el paso
+                  <a href="#4">3.1</a>
+                </b>
+                </b>
+              </p>
+              <br>
+              <a href="./dist/img/wplogin.png">
+                <img class="img-responsive" src="./dist/img/wplogin.png">
+              </a>
+            </li>
+
+            <li type="i">
+              <p>
+                <b>Una vez iniciada la sesión serás redirigido al dashboard y deberás eliminar los archivos de instalación
+                </b>
+                </b>
+              </p>
+              <br>
+              <a href="./dist/img/dashboard.png">
+                <img class="img-responsive" src="./dist/img/dashboard.png">
+              </a>
+            </li>
+
+
+            <li type="i">
+              <p>
+
+                <h2>La tienda virtual está lista para ser utilizada.</h2>
+                <a class="waves-effect waves-light btn modal-trigger" href="https://localhost/supermercadosmax">Ir a la tienda</a>
+              </p>
+            </li>
+
+        </div>
+      </li>
+
+      <li>
+        <div class="collapsible-header">4. Errores comunes
+          <i class="material-icons">arrow_drop_down</i>
+        </div>
+        <div class="collapsible-body blue-grey lighten-4">
+          <ul class="collapsible blue-grey lighten-5" data-collapsible="accordion">
+            <li>
+              <div class="collapsible-header">1. No se muestran las ofertas diarias en el slider principal
+                <i class="material-icons">arrow_drop_down</i>
+              </div>
+              <div class="collapsible-body blue-grey lighten-5">
+                <p>
+                  <b>Causa:</b>
+                </p>
+                <p>No existe una categoría de productos con slug definido como
+                  <b>ofertas-diarias</b> o no hay productos asignados a esa categoría.</p>
+              </div>
+            </li>
+
+            <li>
+              <div class="collapsible-header">2. No se muestran las ofertas semanales en la página principal
+                <i class="material-icons">arrow_drop_down</i>
+              </div>
+              <div class="collapsible-body blue-grey lighten-5">
+                <b>Causa:</b>
+                </p>
+                <p>No se ha utilizado el shortcode:</p>
+                <code>
+                  <b>[products per_page="4" columns="4" category="Ofertas Semanales" orderby="rand" order="rand" on_sale="true"]</b>
+                </code>
+                <p> O no se ha definido una categoría de productos en la opción Categoría de productos en la
+                  <b>Sección de productos</b> del personalizador</p>
+                <a href="./dist/img/ofertassemanales.png">
+                  <img class="img-responsive" src="./dist/img/ofertassemanales.png">
+                </a>
+                <p>
+              </div>
+            </li>
+
+            <li>
+              <div class="collapsible-header">3. No se muestran las ofertas del mes en la página principal
+                <i class="material-icons">arrow_drop_down</i>
+              </div>
+              <div class="collapsible-body blue-grey lighten-5">
+                <p>
+                  <b>Causa:</b>
+                </p>
+                <ol>
+                  <li>
+                    <p>No se ha seleccionado la categoría ofertas semanales</p>
+                  </li>
+                  <li>
+                    <p>No se hay productos asignados a la categoría ofertas semanales</p>
+                  </li>
+                  <li>
+                    <p> No se ha seleccionaod la categoría de
+                      <b>Ofertas Diárias</b> en la sección en la
+                      <b>Sección Slider de productos</b> del personalizador</p>
+                  </li>
+                </ol>
+                <a href="./dist/img/ofertasmensuales.png">
+                  <img class="img-responsive" src="./dist/img/ofertasmensuales.png">
+                </a>
+              </div>
+            </li>
+
+            <li>
+              <div class="collapsible-header">4. Error en dashboard del plugin NexttendSocialLoginerrorURI
+                <i class="material-icons">arrow_drop_down</i>
+              </div>
+              <div class="collapsible-body blue-grey lighten-5">
+                <a href="./dist/img/NexttendSocialLoginerrorURI.png">
+                  <img class="img-responsive" src="./dist/img/NexttendSocialLoginerrorURI.png">
+                </a>
+                <p>
+                  <b>Causa:</b>
+                </p>
+                <p>La página utiliza protocolo http en vez de protocolo https.</p>
+              </div>
+            </li>
+
+            <li>
+              <div class="collapsible-header">5. Error de inicio de sesión con cuenta Facebook
+                <i class="material-icons">arrow_drop_down</i>
+              </div>
+              <div class="collapsible-body blue-grey lighten-5">
+                <a href="./dist/img/errorloginfacebookhttps.png">
+                  <img class="img-responsive" src="./dist/img/errorloginfacebookhttps.png">
+                </a>
+                <p>
+                  <b>Causa:</b>
+                </p>
+                <p>La página utiliza protocolo http en vez de protocolo https.</p>
+
+                <h3>Solución</h3>
+                <p>Se debe cambiar la URL del sitio web en ajustes para forzar Ingresar al sitio web con protocolo https:</p>
+                <br>
+                <a class="waves-effect waves-light btn modal-trigger" href="#https">Ver Solución</a>
+              </div>
+            </li>
+
+            <li>
+              <div class="collapsible-header">6. Error de inicio de sesión con cuenta Google+
+                <i class="material-icons">arrow_drop_down</i>
+              </div>
+              <div class="collapsible-body blue-grey lighten-5">
+
+                <a href="./dist/img/errorlogingooglehttps.png">
+                  <img class="img-responsive" src="./dist/img/errorlogingooglehttps.png">
+                </a>
+                <p>
+                  <b>Causa:</b>
+                </p>
+                <p>La página utiliza protocolo http en vez de protocolo https.</p>
+                <h3>Solución</h3>
+                <p>Se debe cambiar la URL del sitio web en ajustes para forzar Ingresar al sitio web con protocolo https:</p>
+                <br>
+                <a class="waves-effect waves-light btn modal-trigger" href="#https">Ver Solución</a>
+              </div>
+            </li>
+
+            <li>
+              <div class="collapsible-header">7. Error al enviar emails desde el formulario de contacto
+                <i class="material-icons">arrow_drop_down</i>
+              </div>
+              <div class="collapsible-body blue-grey lighten-5">
+
+                <a href="./dist/img/emailcontacto.png">
+                  <img class="img-responsive" src="./dist/img/emailcontacto.png">
+                </a>
+                <p>
+                  <b>Causa:</b>
+                </p>
+                <p>Por cuestiones de seguridad, no se ha configurado un servicio de envío de emails (SMTP) para esta evaluación.</p>
+                <br>
+              </div>
+            </li>
+
+            <li>
+              <div class="collapsible-header">8. Finalizar compras
+                <i class="material-icons">arrow_drop_down</i>
+              </div>
+              <div class="collapsible-body blue-grey lighten-5">
+                <p>Una vez presionado el botón finalizar compras no refrescar el navegador hasta que el proceso termine. Este
+                  proceso puede durar unos minutos.</p>
+                <br>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </li>
+
+      <!--Duplicator -->
+
+      <!-- <li>
+        <div class="collapsible-header">
+          <i class="material-icons">play_arrow</i>3.2 Instalar y configurar wordpress paso a paso.
+          <i class="material-icons">arrow_drop_down</i>
+        </div>
+        <div class="collapsible-body blue-grey lighten-4">
+          <ul class="collapsible" data-collapsible="accordion">
+            <li>
+              <div class="collapsible-header">
+                <p>
+                  <i class="material-icons">play_arrow</i>3.2.1 Descargar Wordpress
+                  <i class="material-icons">arrow_drop_down</i>
+                </p>
+              </div>
+              <div class="collapsible-body blue-grey lighten-5">
+                <ol>
+                  <li type="i">
+                    <p>Descargar wordpress desde su página oficial:</b>
+                    </p>
+                    <a href="https://wordpress.org/">https://wordpress.org/</a>
+
+                    <a href="./dist/img/downloadwordpress.png">
+                      <img class="img-responsive" src="./dist/img/downloadwordpress.png">
+                    </a>
+                  </li>
+
+                  <li type="i">
+                    <p>Una vez descargado, extraer su contenido en la carpeta
+                      <b>
+                        <code>c:\xampp\htdocs\supermercadosmax</code>
+                      </b>
+                    </p>
+                    <a href="./dist/img/carpetaproyectowordpress.png">
+                      <img class="img-responsive" src="./dist/img/carpetaproyectowordpress.png">
+                    </a>
+                  </li>
+
+                  <li type="i">
+                    <p>
+                      Abrir el explorador e ingresar en la url el nombre del servidor mas el nombre de la carpeta del proyecto en este caso wordpress
+                    </p>
+                    <a href="http://localhost/supermercadosmax">http://localhost/supermercadosmax</a>
+                  </li>
+                  <li type="i">Completar el asistente de configuración
+                    <p>Si el asistente muestra un error. Se debe verificar los parámetros de conexión en el archivo wp-config.php</p>
+                  </li>
+                </ol>
+              </div>
+            </li>
+
+            <li>
+              <div class="collapsible-header">
+                <p>
+                  <i class="material-icons">play_arrow</i>3.2.2 Configurar Wordpress
+                  <i class="material-icons">arrow_drop_down</i>
+                </p>
+              </div>
+              <div class="collapsible-body blue-grey lighten-5">
+
+                <ul class="collapsible" data-collapsible="accordion">
+                  <li>
+                    <div class="collapsible-header">
+                      <p>
+                        <i class="material-icons">play_arrow</i>3.2.2.1 Descomprimir e importar base de datos
+                        <i class="material-icons">arrow_drop_down</i>
+                      </p>
+                    </div>
+                    <div class="collapsible-body blue-grey lighten-5">
+                      <ol>
+                        <li type="i">
+                          <p>Abrir el archivo supermercadosmax_cf2a4b83a85c0cff7807180416123917_archive y descomprimir las carpetas
+                            <b>database.sql</b>, dentro de la carpeta del proyecto
+                            <code>C:\xampp\htdocs\supermercadosmax</code>
+                          </p>
+                          <a href="./dist/img/descomprimirbasededatos.png">
+                            <img class="img-responsive" src="./dist/img/descomprimirbasededatos.png">
+                          </a>
+                        </li>
+
+                        <li type="i">
+                          <p>Iniciar sesión en phpmyadmin.</p>
+                          <a href="http://localhost/phpmyadmin.php">http://localhost/phpmyadmin</a>
+                          <a href="./dist/img/phpmyadminlogin.png">
+                            <img class="img-responsive" src="./dist/img/phpmyadminlogin.png">
+                          </a>
+                        </li>
+
+                        <li type="i">
+                          <p>Seleccionar la base de datos supermercadosmax y hacer clic en import
+                          </p>
+                          <a href="./dist/img/importarbasededatos.png">
+                            <img class="img-responsive" src="./dist/img/importarbasededatos.png">
+                          </a>
+                        </li>
+
+                        <li type="i">
+                          <p>En la pestaña de importación seleccionar explorar (browse...) y navegar hasta la carpeta del proyecto
+                            y seleccionar el archivo
+                            <b>suermercadosmax.sql</b>
+                            <br>
+                          </p>
+                          <code>C:\xampp\htdocs\supermercadosmax\database.sql</code>
+                          <br>
+                          <p>Y hacer clic en GO al final de la página. Esperar a que finalice la importación de la imformación</p>
+                          <a href="./dist/img/importarbasededatosGO.png">
+                            <img class="img-responsive" src="./dist/img/importarbasededatosGO.png">
+                          </a>
+                        </li>
+                      </ol>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="collapsible-header">
+                      <p>
+                        <i class="material-icons">play_arrow</i>3.2.2.2 Instalar temas, plugins e imágenes de productos
+                        <i class="material-icons">arrow_drop_down</i>
+                      </p>
+                    </div>
+                    <div class="collapsible-body blue-grey lighten-5">
+                      <ol>
+                        <li type="i">
+                          <p>Abrir el archivo supermercadosmax_cf2a4b83a85c0cff7807180416123917_archive y descomprimir las carpetas:
+                            <ul>
+                              <li>
+                                <b>wp-content/plugins</b>
+                              </li>
+                              <li>
+                                <b>wp-content/themes</b>
+                              </li>
+                              <li>
+                                <b>wp-content/uploads</b>
+                              </li>
+                            </ul>
+                            dentro de la carpeta del proyecto
+                            <code>C:\xampp\htdocs\supermercadosmax</code>y reemplazar su contenido
+                          </p>
+                          <a href="./dist/img/temasplugins.png">
+                            <img class="img-responsive" src="./dist/img/temasplugins.png">
+                          </a>
+                        </li>
+                      </ol>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="collapsible-header">
+                      <p>
+                        <i class="material-icons">play_arrow</i>3.2.2.3 Configurar Archivo config-sample.php
+                        <i class="material-icons">arrow_drop_down</i>
+                      </p>
+                    </div>
+                    <div class="collapsible-body blue-grey lighten-5">
+                      <ol>
+                        <li type="i">
+                          <p>
+                            <b>Abrir elr archivo wp-config-sample.php y modificar la información de conexión a la base de datos
+                              en los campos</b>
+                            <ol>
+                              <li type="a">DB_NAME: nombre de base de datos</li>
+                              <li type="a">DB_User: nombre del usuario de mysql</li>
+                              <li type="a">DB_Password: password del usuario mysql</li>
+                              <li type="a">DB_HOST: nombre del servidor</li>
+                            </ol>
+                            <a href="./dist/img/wp-config.png">
+                              <img class="img-responsive" src="./dist/img/wp-config.png">
+                            </a>
+                          </p>
+                          <p></p>
+                        </li>
+
+                        <li type="i">
+                          <p>
+                            <b>Guardar el archivo y renombrarlo como wp-config.php</b>
+                          </p>
+                        </li>
+                      </ol>
+                    </div>
+                  </li>
+                </ul> -->
+
+      <!-- <ol>
+                  <li type="i">
+                    <p>
+                      Abrir el explorador e ingresar en la url el nombre del servidor mas el nombre de la carpeta del proyecto en ete caso wordpress
+                    </p>
+                    <a href="http://localhost/supermercadosmax">http://localhost/supermercadosmax</a>
+                  </li>
+
+                  <li type="i">Completar el asistente de configuración
+                    <ol>
+                      <li type="1">
+                        <a href="./dist/img/wordpressstep1.png">
+                          <img class="img-responsive" src="./dist/img/wordpressstep1.png">
+                        </a>
+                      </li>
+
+                      <li type="1">
+                        <a href="./dist/img/wordpressstep2.png">
+                          <img class="img-responsive" src="./dist/img/wordpressstep2.png">
+                        </a>
+                      </li>
+
+                      <li type="1">
+                        <p>Colocar la información correspondiente a la configuración de la base de datos realizada en el paso
+                          2.
+                        </p>
+                        <a href="./dist/img/wordpressstep3.png">
+                          <img class="img-responsive" src="./dist/img/wordpressstep3.png">
+                        </a>
+                      </li>
+
+                      <li type="1">
+                        <p>Si la configuración es correcta verás el siguiente mensaje</p>
+                        <a href="./dist/img/wordpressstep4.png">
+                          <img class="img-responsive" src="./dist/img/wordpressstep4.png">
+                        </a>
+                      </li>
+
+                      <li type="1">
+                        <p>Completa el formulario y crea un usuario para iniciar sesión. En este ejemplo:</p>
+                        <p>
+                          <b>Usuario:</b>master</p>
+                        <br>
+                        <p>
+                          <b>Contraseña:</b>123456</p>
+                        <a href="./dist/img/wordpressstep5.png">
+                          <img class="img-responsive" src="./dist/img/wordpressstep5.png">
+                        </a>
+                      </li>
+
+                      <li type="1">
+                        <p>Inicia sesión en wordpress para ingresar al panel de control o Dashboard</p>
+                        <a href="./dist/img/wordpressstep6.png">
+                          <img class="img-responsive" src="./dist/img/wordpressstep6.png">
+                        </a>
+                      </li>
+                    </ol>
+                  </li>
+                  <p>Si el asistente muestra un error. Se debe verificar los parámetros de conexión en el archivo wp-config.php</p>
+
+
+                </ol> -->
+      <!-- </div>
+            </li> -->
+
+
+
+
+
+
+      <!-- <li>
+              <div class="collapsible-header">
+                <p>
+                  <i class="material-icons">play_arrow</i>3.2.5 Importar base de datos
+                  <i class="material-icons">arrow_drop_down</i>
+                </p>
+              </div>
+              <div class="collapsible-body blue-grey lighten-5">
+                <ol>
+                  <li type="i">
+                    <p>Iniciar sesión en phpmyadmin.</p>
+                    <a href="http://localhost/phpmyadmin.php">http://localhost/phpmyadmin</a>
+                    <a href="./dist/img/phpmyadminlogin.png">
+                      <img class="img-responsive" src="./dist/img/phpmyadminlogin.png">
+                    </a>
+                  </li>
+
+                  <li type="i">
+                    <p>Seleccionar la base de datos supermercadosmax y hacer clic en import
+                    </p>
+                    <a href="./dist/img/phpmyadmindatabase.png">
+                      <img class="img-responsive" src="./dist/img/phpmyadmindatabase.png">
+                    </a>
+                  </li>
+
+                  <li type="i">
+                    <p>En la pestaña de importación seleccionar explorar (browse...) y navegar hasta la carpeta del proyecto
+                      y seleccionar el archivo
+                      <b>suermercadosmax.sql</b>
+                      <br>
+                    </p>
+                    <code>C:\xampp\htdocs\supermercadosmax\database.sql</code>
+                    <br>
+                    <p>Y hacer clic en GO al final de la página. Esperar a que finalice la importación de la imformación</p>
+                  </li>
+
+                </ol>
+              </div>
+            </li> -->
+
+      <!-- <li>
+              <div class="collapsible-header">
+                <p>
+                  <i class="material-icons">play_arrow</i>3.2.6 Activar tema
+                  <i class="material-icons">arrow_drop_down</i>
+                </p>
+              </div>
+              <div class="collapsible-body blue-grey lighten-5">
+                <ol>
+
+                  <li type="i">
+                    <p>Ir a la sección Apaciencia/Temas en el dashboard y activar el tema Shop Isle - Supermax
+                      <a href="http://localhost/supermercadosmax/wp-admin/themes.php">http://localhost/supermercadosmax/wp-admin/themes.php</a>
+                    </p>
+                    <a href="./dist/img/temasupermax.png">
+                      <img class="img-responsive" src="./dist/img/temasupermax.png">
+                    </a>
+                  </li>
+
+                  <li type="i">
+                    <p>
+                      Para verificar la activación del tema puedes navegar hasta la página de tu sitio web
+                    </p>
+                    <a href="http://localhost/supermercadosmax">http://localhost/supermercadosmax</a>
+                    <a href="./dist/img/firstscreen.png">
+                      <img class="img-responsive" src="./dist/img/firstscreen.png">
+                    </a>
+                  </li>
+
+                </ol>
+              </div>
+            </li>
+
+            <li>
+              <div class="collapsible-header">
+                <p>
+                  <i class="material-icons">play_arrow</i>3.2.7 Activar plugins
+                  <i class="material-icons">arrow_drop_down</i>
+                </p>
+              </div>
+              <div class="collapsible-body blue-grey lighten-5">
+                <ol>
+                  <li type="i">
+                    <p>Iniciar sesión en wordpress.</p>
+                    <a href="http://localhost/supermercadosmax/wp-login.php">http://localhost/supermercadosmax/wp-login.php</a>
+                    <a href="./dist/img/wordpressstep6.png">
+                      <img class="img-responsive" src="./dist/img/wordpressstep6.png">
+                    </a>
+                  </li>
+
+                  <li type="i">
+                    <p>Ir a la sección Plugins/Plugins Instalados en el dashboard y activar
+                      <a href="http://localhost/supermercadosmax/wp-admin/plugins.php">http://localhost/supermercadosmax/wp-admin/plugins.php</a>
+                    </p>
+                    <a href="./dist/img/activarplugins.png">
+                      <img class="img-responsive" src="./dist/img/activarplugins.png">
+                    </a>
+                  </li>
+                </ol>
+              </div>
+            </li>
+
+
+
+          </ul>
+        </div>
+      </li> -->
+  </div>
+
+  <!-- Modal Structure -->
+  <div id="https" class="modal">
+    <div class="modal-content">
+      <h4>Forzar web a https</h4>
+      <p>
+        Ir a ajustes generale y cambiar el protocolo de conexión por defecto http por https en la opción
+        <b>Dirección del sitio (URL)</b>.
+        <a href="https://localhost/supermercadosmax/wp-admin/options-general.php">https://localhost/supermercadosmax/wp-admin/options-general.php</a>
+      </p>
+      <a href="./dist/img/forzarhttps.png">
+        <img class="img-responsive" src="./dist/img/forzarhttps.png">
+      </a>
+      <i>
+        Es necesario forzar el protocolo de conexión a https para evitar inconvenientes y errores a la hora de realizar el inicio
+        de sesión con las redes sociales facebook y google+
+      </i>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">OK</a>
+    </div>
+  </div>
+  </ul>
+  <p class="center-align">
+    Diego Armando Quiroz Perez
+  </p>
+  </div>
+  <script type="text/javascript" src="./dist/js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="./dist/js/materialize.min.js"></script>
+  <script>
+    (function ($) {
+      $(function () {
+
+        //initialize all modals           
+        $('.modal').modal();
+
+        //or by click on trigger
+        $('.trigger-modal').modal();
+
+      }); // end of document ready
+    })(jQuery);
+  </script>
+
+
+  </div>
+</body>
+
+</html>

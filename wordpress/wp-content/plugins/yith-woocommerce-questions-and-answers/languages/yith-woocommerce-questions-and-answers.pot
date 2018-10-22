@@ -1,0 +1,668 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: YIT WooCommerce Advanced Reviews\n"
+"POT-Creation-Date: 2017-08-11 17:21+0200\n"
+"PO-Revision-Date: 2015-05-11 14:28+0100\n"
+"Last-Translator: \n"
+"Language-Team: Your Inspiration Themes <plugins@yithemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;__ngettext:1,2;"
+"__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;"
+"_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n!=1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../plugin-fw\n"
+
+#: ../class.yith-woocommerce-question-answer.php:116
+#: ../class.yith-woocommerce-question-answer.php:117
+msgid "Content updated."
+msgstr ""
+
+#: ../class.yith-woocommerce-question-answer.php:118
+msgid "Content published."
+msgstr ""
+
+#: ../class.yith-woocommerce-question-answer.php:119
+msgid "Content saved."
+msgstr ""
+
+#: ../class.yith-woocommerce-question-answer.php:120
+msgid "Content submitted."
+msgstr ""
+
+#: ../class.yith-woocommerce-question-answer.php:217
+#: ../class.yith-woocommerce-question-answer.php:235
+msgid "Product: "
+msgstr ""
+
+#: ../class.yith-woocommerce-question-answer.php:240
+msgid "Question: "
+msgstr ""
+
+#: ../class.yith-woocommerce-question-answer.php:260
+msgid "Select product"
+msgstr ""
+
+#: ../class.yith-woocommerce-question-answer.php:405
+msgctxt "Post Type General Name"
+msgid "Questions & Answers"
+msgstr ""
+
+#: ../class.yith-woocommerce-question-answer.php:406
+msgctxt "Post Type Singular Name"
+msgid "Question"
+msgstr ""
+
+#: ../class.yith-woocommerce-question-answer.php:407
+#: ../class.yith-woocommerce-question-answer.php:423
+#: ../class.yith-woocommerce-question-answer.php:627
+msgid "Questions & Answers"
+msgstr ""
+
+#: ../class.yith-woocommerce-question-answer.php:408
+msgid "Parent discussion"
+msgstr ""
+
+#: ../class.yith-woocommerce-question-answer.php:409
+msgid "All discussion"
+msgstr ""
+
+#: ../class.yith-woocommerce-question-answer.php:410
+msgid "View discussions"
+msgstr ""
+
+#: ../class.yith-woocommerce-question-answer.php:411
+msgid "Add new question"
+msgstr ""
+
+#: ../class.yith-woocommerce-question-answer.php:412
+msgid "Add new"
+msgstr ""
+
+#: ../class.yith-woocommerce-question-answer.php:413
+msgid "Edit discussion"
+msgstr ""
+
+#: ../class.yith-woocommerce-question-answer.php:414
+msgid "Update discussion"
+msgstr ""
+
+#: ../class.yith-woocommerce-question-answer.php:415
+msgid "Search discussion"
+msgstr ""
+
+#: ../class.yith-woocommerce-question-answer.php:416
+msgid "Not found"
+msgstr ""
+
+#: ../class.yith-woocommerce-question-answer.php:417
+msgid "Not found in the bin"
+msgstr ""
+
+#: ../class.yith-woocommerce-question-answer.php:424
+msgid "YITH Questions and Answers"
+msgstr ""
+
+#: ../class.yith-woocommerce-question-answer.php:474
+#: ../class.yith-woocommerce-question-answer.php:540
+msgid "Please retry submitting your question or answer."
+msgstr ""
+
+#: ../class.yith-woocommerce-question-answer.php:480
+msgid "No product ID selected, the question will not be created."
+msgstr ""
+
+#: ../class.yith-woocommerce-question-answer.php:607
+msgid "You need to write something!"
+msgstr ""
+
+#: ../class.yith-woocommerce-question-answer.php:608
+msgid "Answer correctly sent."
+msgstr ""
+
+#: ../class.yith-woocommerce-question-answer.php:609
+msgid "An error occurred, your answer has not been added."
+msgstr ""
+
+#: ../init.php:23
+msgid ""
+"YITH WooCommerce Questions & Answers is enabled but not effective. It "
+"requires WooCommerce in order to work."
+msgstr ""
+
+#: ../init.php:31
+msgid ""
+"You can't activate the free version of YITH WooCommerce Questions & Answers "
+"while you are using the premium one."
+msgstr ""
+
+#: ../lib/class.ywqa-discussion.php:96
+msgid "Anonymous"
+msgstr ""
+
+#: ../lib/class.ywqa-plugin-fw-loader.php:125
+msgid "General"
+msgstr ""
+
+#: ../lib/class.ywqa-plugin-fw-loader.php:128
+#: ../lib/class.ywqa-plugin-fw-loader.php:188
+msgid "Premium Version"
+msgstr ""
+
+#: ../lib/class.ywqa-plugin-fw-loader.php:184
+msgid "Settings"
+msgstr ""
+
+#: ../lib/class.ywqa-plugin-fw-loader.php:214
+msgid "Plugin Documentation"
+msgstr ""
+
+#: ../lib/class.ywqa-plugin-fw-loader.php:227
+msgid ""
+"YITH WooCommerce Questions and Answers is available in an outstanding "
+"PREMIUM version with many new options, discover it now."
+msgstr ""
+
+#: ../lib/class.ywqa-plugin-fw-loader.php:228
+msgid "Premium version"
+msgstr ""
+
+#: ../lib/class.ywqa-plugin-fw-loader.php:235
+msgid "YITH WooCommerce Questions and Answers"
+msgstr ""
+
+#: ../lib/class.ywqa-plugin-fw-loader.php:236
+msgid ""
+"In YIT Plugins tab you can find YITH WooCommerce Questions & Answers options."
+"<br> From this menu you can access all settings of YITH plugins activated."
+msgstr ""
+
+#: ../plugin-options/general-options.php:20
+msgid "General settings"
+msgstr ""
+
+#: ../plugin-options/general-options.php:25
+msgid "Questions to show"
+msgstr ""
+
+#: ../plugin-options/general-options.php:27
+msgid ""
+"Set how many questions you want to show for each product (set 0 to display "
+"all)."
+msgstr ""
+
+#: ../plugin-options/general-options.php:37 ../templates/admin/premium.php:380
+msgid "FAQ mode"
+msgstr ""
+
+#: ../plugin-options/general-options.php:39
+msgid ""
+"Don't allow users to add questions and answers, but let them read in FAQ "
+"mode."
+msgstr ""
+
+#: ../templates/admin/premium.php:204 ../templates/admin/premium.php:393
+#, php-format
+msgid ""
+"Upgrade to %1$spremium version%2$s of %1$sYITH WooCommerce Questions and "
+"Answers%2$s to benefit from all features!"
+msgstr ""
+
+#: ../templates/admin/premium.php:207 ../templates/admin/premium.php:396
+msgid "UPGRADE"
+msgstr ""
+
+#: ../templates/admin/premium.php:208 ../templates/admin/premium.php:397
+msgid "to the premium version"
+msgstr ""
+
+#: ../templates/admin/premium.php:214
+msgid "Premium Features"
+msgstr ""
+
+#: ../templates/admin/premium.php:222
+msgid "Number of answers "
+msgstr ""
+
+#: ../templates/admin/premium.php:225
+#, php-format
+msgid ""
+"The more followers has a question, the more answers are likely to be left "
+"for it. If you do not want your product page to get extremely long, enable "
+"%1$sanswer pagination%2$s by specifying the number of elements you want to "
+"show at a time."
+msgstr ""
+
+#: ../templates/admin/premium.php:235
+msgid "Voting system"
+msgstr ""
+
+#: ../templates/admin/premium.php:238
+#, php-format
+msgid ""
+"Increase and improve interaction between users and your shop. With the "
+"premium version of the plugin, you will be able to allow all registered "
+"users to leave a %1$spositive or negative vote%2$s to questions and answers "
+"of each product. A very good strategy to highlight questions and answers "
+"that can be useful to other customers."
+msgstr ""
+
+#: ../templates/admin/premium.php:254
+msgid "Email notification"
+msgstr ""
+
+#: ../templates/admin/premium.php:257
+#, php-format
+msgid ""
+"Keep always up-to-date about what users write in your shop. Enable %1$semail "
+"notification%2$s to be informed any time a new question is added to one of "
+"your products and read the content of it in the email message you get. With "
+"the option %1$s\"User notification\"%2$s, you can notify users as soon as an "
+"answer is given to the question they have previously posed."
+msgstr ""
+
+#: ../templates/admin/premium.php:268
+msgid "Inappropriate content"
+msgstr ""
+
+#: ../templates/admin/premium.php:271
+#, php-format
+msgid ""
+"There might always be someone in the web, who wants to disturb or leave "
+"offensive, inappropriate or simply unsuitable answers. With the premium "
+"version of the plugin, your users will be able to \"monitor\" this kind of "
+"answers on their own and report questions and/or answers that are "
+"inappropriate. %1$sThese answers will be automatically removed%2$s if a "
+"specific number of users that you can set in your plugin reports them as an "
+"abuse."
+msgstr ""
+
+#: ../templates/admin/premium.php:287
+msgid "Incognito mode"
+msgstr ""
+
+#: ../templates/admin/premium.php:290
+#, php-format
+msgid ""
+"Working principles are always the same. Each question will get its own "
+"answers. The only difference is that the name of users who have posed a "
+"question or given an answer will not be shown and they will be %1$sanonymous"
+"%2$s to users of the shop, either they are registered or not."
+msgstr ""
+
+#: ../templates/admin/premium.php:299
+msgid "Invite to answer"
+msgstr ""
+
+#: ../templates/admin/premium.php:302
+#, php-format
+msgid ""
+"Who may better answer to a new question than those who have purchased a "
+"product?  With this innovative feature, you will be able to automatically "
+"%1$ssend an email to customers that have purchased a product%2$s on which a "
+"question has been added and invite them to answer. You can choose to send an "
+"email to all customers or let the plugin select only some of them randomly. "
+msgstr ""
+
+#: ../templates/admin/premium.php:318
+msgid "reCAPTCHA"
+msgstr ""
+
+#: ../templates/admin/premium.php:321
+#, php-format
+msgid ""
+"Make your questions and answers system safer: activate the recaptcha and "
+"avoid all the spam contents you can get.The premium version of the plugin "
+"offers the new version of Google's captcha, the %1$sNo CAPTCHA reCAPTCHA"
+"%2$s, to give you the freedom to use an up-to-date and simple system for "
+"your users."
+msgstr ""
+
+#: ../templates/admin/premium.php:330
+msgid "Insertion mode."
+msgstr ""
+
+#: ../templates/admin/premium.php:333
+#, php-format
+msgid ""
+"By default, the complete list of questions and answers is shown right inside "
+"a %1$stab of product detail page%2$s.%3$s However, you can change this "
+"behavior by inserting, through the specific %1$sshortcode%2$s, questions and "
+"answers in any spot of the page."
+msgstr ""
+
+#: ../templates/admin/premium.php:349
+msgid "Content moderation"
+msgstr ""
+
+#: ../templates/admin/premium.php:352
+#, php-format
+msgid ""
+"That be a question or an answer, the content could be %1$spublished only "
+"after your approval%2$s. In this way you could avoid spam on your product "
+"pages and be sure to have only efficient contents for your customers."
+msgstr ""
+
+#: ../templates/admin/premium.php:361
+msgid "Unlogged users"
+msgstr ""
+
+#: ../templates/admin/premium.php:364
+#, php-format
+msgid ""
+"Give the possibility to unlogged users to insert a question or an answer. "
+"The insertion form allows user to insert %1$sname%2$s and %1$semail address"
+"%2$s which can be used later by administrator to stretch back to the owner "
+"of the question and/or answer."
+msgstr ""
+
+#: ../templates/admin/premium.php:383
+#, php-format
+msgid ""
+"A complete list of questions and answers is made available to users, without "
+"any possibility of insertion for them. %1$sOnly the administrator of the shop"
+"%2$s will be enabled to insert and /or change the contents."
+msgstr ""
+
+#: ../templates/ywqa-answer-template.php:21
+#, php-format
+msgid "%s answered on %s"
+msgstr ""
+
+#: ../templates/ywqa-answers-template.php:24
+msgid "Back to product"
+msgstr ""
+
+#: ../templates/ywqa-answers-template.php:28
+#, php-format
+msgid "asked by %s on %s"
+msgstr ""
+
+#: ../templates/ywqa-answers-template.php:47
+msgid "Answer"
+msgstr ""
+
+#: ../templates/ywqa-answers-template.php:48
+msgid "Answer now to the question"
+msgstr ""
+
+#: ../templates/ywqa-answers-template.php:59
+#, php-format
+msgid "%s answers shown"
+msgstr ""
+
+#: ../templates/ywqa-answers-template.php:69
+msgid "There are no answers to this question, be the first to respond."
+msgstr ""
+
+#: ../templates/ywqa-question-template.php:29
+msgid "Answered by the admin"
+msgstr ""
+
+#: ../templates/ywqa-question-template.php:31
+msgid "A"
+msgstr ""
+
+#: ../templates/ywqa-question-template.php:39
+msgid "There are no answers for this question yet."
+msgstr ""
+
+#: ../templates/ywqa-question-template.php:47
+#, php-format
+msgid "Show all %s answers"
+msgstr ""
+
+#: ../templates/ywqa-questions-template.php:19
+msgid "Questions and answers of the customers"
+msgstr ""
+
+#: ../templates/ywqa-questions-template.php:35
+#, php-format
+msgid "Show all %d questions with answers"
+msgstr ""
+
+#: ../templates/ywqa-questions-template.php:41
+msgid ""
+"There are no questions yet, be the first to ask something for this product."
+msgstr ""
+
+#: ../templates/ywqa-questions-template.php:56
+msgid "Do you have any question? Ask now!"
+msgstr ""
+
+#: ../templates/ywqa-questions-template.php:59
+msgid "Ask"
+msgstr ""
+
+#: ../templates/ywqa-questions-template.php:60
+msgid "Ask your question"
+msgstr ""
+
+#~ msgid "This review is closed for replies"
+#~ msgstr "This review is closed to replies"
+
+#~ msgid "This review is closed for comments"
+#~ msgstr "This review is closed to comments"
+
+#~ msgid "Product id is in invalid format"
+#~ msgstr "Product id is an invalid format"
+
+#~ msgid "Voting/Reviews settings"
+#~ msgstr "Voting/Review settings"
+
+#~ msgid ""
+#~ "In the YIT Plugins tab you can find the YITH WooCommerce Advanced Reviews "
+#~ "options. With this menu, you can access to all the settings of our "
+#~ "plugins that you have activated."
+#~ msgstr ""
+#~ "In YIT Plugins tab you can find YITH WooCommerce Advanced Reviews "
+#~ "options. From this menu you can access all settings of YITH plugins "
+#~ "activated."
+
+#~ msgid ""
+#~ "From now on, you can find all the options of YITH WooCommerce Advanced "
+#~ "Reviews under YIT Plugin -> Advanced Reviews instead of WooCommerce -> "
+#~ "Settings -> Advanced Reviews, as in the previous version. When one of our "
+#~ "plugins updates, a new voice will be added to this menu."
+#~ msgstr ""
+#~ "From now on, you can find all YITH WooCommerce Advanced Reviews options "
+#~ "in YIT Plugin -> Advanced Reviews instead of WooCommerce -> Settings -> "
+#~ "Advanced Reviews, as in the previous version. Any time one of our plugins "
+#~ "is updated, a new entry will be added to this menu."
+
+#~ msgid "The layout for this "
+#~ msgstr "Layout for this "
+
+#~ msgid ""
+#~ "The word used for the URL of each project (the slug of post if empty)"
+#~ msgstr ""
+#~ "Univocal identification name in the URL for each product (slug from post "
+#~ "if empty)"
+
+#~ msgid "Label Singular"
+#~ msgstr "Label in Singular"
+
+#~ msgid ""
+#~ "Set the label in singular to use for each label (the title of portfolio "
+#~ "if empty)"
+#~ msgstr "Set a label in singular (title of portfolio if empty)"
+
+#~ msgid "Label Plural"
+#~ msgstr "Label in Plural"
+
+#~ msgid ""
+#~ "Set the label in plural to use for each label (the title of portfolio if "
+#~ "empty)"
+#~ msgstr "Set a label in plural (title of portfolio if empty)"
+
+#~ msgid ""
+#~ "If you want to use a category section for the portfolio, set the name of "
+#~ "taxonomy. Name should be in slug form (must not contain capital letters "
+#~ "or spaces) and not more than 32 characters long (database structure "
+#~ "restriction)."
+#~ msgstr ""
+#~ "If you want to use categories in the portfolio, set a name for taxonomy. "
+#~ "Name should be a slug (must not contain capital letters nor spaces) and "
+#~ "must not be more than 32 characters long (database structure restriction)."
+
+#~ msgid "Set the word to use in the URL for each category page."
+#~ msgstr "Set the word for each category page URL."
+
+#~ msgid "The layout for single page of this portfolio"
+#~ msgstr "Layout for single page of this portfolio"
+
+#~ msgid "Show the frontend of the %s"
+#~ msgstr "Show frontend of the %s"
+
+#~ msgid ""
+#~ "The changes you made will be lost if you navigate away from this page."
+#~ msgstr "The changes you made will be lost if you leave this page."
+
+#~ msgid ""
+#~ "If you continue with this action, you will reset all options are in this "
+#~ "page."
+#~ msgstr ""
+#~ "If you go on with this action, you will reset all options in this page."
+
+#~ msgid ""
+#~ "The element you have written is already exists. Please, add another name."
+#~ msgstr "This element already exists. Please, enter a different name."
+
+#~ msgid "An error encoured during during import. Please try again."
+#~ msgstr "An error has occurred during import. Please try again."
+
+#~ msgid "The file you have insert doesn't valid."
+#~ msgstr "The file inserted is not valid."
+
+#~ msgid "I'm sorry, the import featured is disabled."
+#~ msgstr "Sorry, import is disabled."
+
+#~ msgid "Sorting done correctly."
+#~ msgstr "Sorting successful."
+
+#~ msgid ""
+#~ "From now on, you can find all the options of your plugins under the YIT "
+#~ "Plugin menu voice.\n"
+#~ "                                     For every installation of our new "
+#~ "plugins, a new voice will be added to access to the customization "
+#~ "settings."
+#~ msgstr ""
+#~ "From now on, you can find all plugin options in YIT Plugin menu.\n"
+#~ "                                     For each plugin installed, "
+#~ "customization settings will be available as a new entry in YIT Plugin "
+#~ "menu."
+
+#~ msgid ""
+#~ "From now on, you can find all the options of your plugins under the YIT "
+#~ "Plugin menu voice.\n"
+#~ "                                    When one of our plugins updates, a "
+#~ "new voice will be added to this menu.\n"
+#~ "                                    For example, after the update, the "
+#~ "options from the plugins (YITH WooCommerce Wishlist, YITH WooCommerce "
+#~ "Ajax Search, etc.)\n"
+#~ "                                    will be removed from the previous "
+#~ "location and moved under the YIT Plugin tab."
+#~ msgstr ""
+#~ "From now on, you can find all the options of your plugins in YIT Plugin "
+#~ "menu.\n"
+#~ "                                    Any time one of our plugins is "
+#~ "updated, a new entry will be added to this menu.\n"
+#~ "                                    For example, after update, plugin "
+#~ "options (such for YITH WooCommerce Wishlist, YITH WooCommerce Ajax "
+#~ "Search, etc.)\n"
+#~ "                                    will be moved from previous location "
+#~ "to YIT Plugin tab."
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. <a href=\"%2$s\" class="
+#~ "\"thickbox yit-changelog-button\" title=\"%3$s\">View version %4$s "
+#~ "details</a>. <em>You have to activate the plugin on a single site of the "
+#~ "network to benefit from the automatic updates.</em>"
+#~ msgstr ""
+#~ "There is a new version of %1$s available. <a href=\"%2$s\" class="
+#~ "\"thickbox yit-changelog-button\" title=\"%3$s\">View version %4$s "
+#~ "details</a>. <em>You have to activate the plugin on a single site of the "
+#~ "network to benefit from automatic updates.</em>"
+
+#~ msgid "%field% field can not be empty"
+#~ msgstr "%field% field cannot be empty"
+
+#~ msgid "%field_1% and %field_2% fields can not be empty"
+#~ msgstr "%field_1% and %field_2% fields cannot be empty"
+
+#~ msgid "Software has been deactive"
+#~ msgstr "Software has been deactivated"
+
+#~ msgid "Licence key has be banned"
+#~ msgstr "Licence key has been banned"
+
+#~ msgid "To Active"
+#~ msgstr "Activation"
+
+#~ msgid "Insert the title of field."
+#~ msgstr "Insert title for the field."
+
+#~ msgid ""
+#~ "REQUIRED: The identification name of this field, that you can insert into "
+#~ "body email configuration. <strong>Note:</strong>Use only lowercase "
+#~ "characters and underscores."
+#~ msgstr ""
+#~ "REQUIRED: Field identification name to be entered into email body. "
+#~ "<strong>Note:</strong>Use only lowercase characters and underscores."
+
+#~ msgid "Select the type of this field."
+#~ msgstr "Select type for this field."
+
+#~ msgid "Select this if it's the email where you can reply."
+#~ msgstr "Select this if it is the email you can reply to."
+
+#~ msgid ""
+#~ "Insert an additional class(es) (separateb by comma) for more "
+#~ "personalization."
+#~ msgstr ""
+#~ "Insert additional class(es) (separated by commas) for more "
+#~ "personalization."
+
+#~ msgid "Choose how much long will be the field."
+#~ msgstr "Set field length."
+
+#~ msgid "The content of the tab. (HTML is supported)"
+#~ msgstr "Content of the tab. (HTML is supported)"
+
+#~ msgid "Sidebar Left"
+#~ msgstr "Left sidebar"
+
+#~ msgid "Sidebar Right"
+#~ msgstr "Right sidebar"
+
+#~ msgid "Add a title field on reviews."
+#~ msgstr "Add a title field to reviews."
+
+#~ msgid "Set maximum number of attachments selectable (0 = no limit)."
+#~ msgstr ""
+#~ "Set maximum number of attachments that can be selected (0 = no limit)."
+
+#~ msgid "Reviews summary options"
+#~ msgstr "Review summary options"
+
+#~ msgid "Fixed bars color"
+#~ msgstr "Fixed bar color"
+
+#~ msgid "Percentage bars color"
+#~ msgstr "Percentage bar color"
+
+#~ msgid "Show people's votes"
+#~ msgstr "Show review votes"
+
+#~ msgid "Add a string stating how many people's found the review useful."
+#~ msgstr "Add a string stating how many people found the review useful."
+
+#~ msgid "Customers reviews"
+#~ msgstr "Customers' reviews"
